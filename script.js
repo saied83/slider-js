@@ -10,12 +10,13 @@ next.onclick = function () {
 prev.onclick = function () {
   showSlider("prev");
 };
-let timeRunning = 2000;
+let timeRunning = 500;
 let runTimeOut;
 
 setInterval(() => {
   next.click();
-}, 4000);
+}, 7000);
+
 const showSlider = (type) => {
   let itemSlider = document.querySelectorAll(".carousel .list .item");
   let itemThumbnail = document.querySelectorAll(".carousel .thumbnail .item");
