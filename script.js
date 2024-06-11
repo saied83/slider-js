@@ -16,7 +16,6 @@ let runTimeOut;
 setInterval(() => {
   next.click();
 }, 7000);
-
 const showSlider = (type) => {
   let itemSlider = document.querySelectorAll(".carousel .list .item");
   let itemThumbnail = document.querySelectorAll(".carousel .thumbnail .item");
